@@ -1,11 +1,11 @@
-import React from "react";
-import App from "../App";
+import React, {useState} from "react";
 
 export default function TestSetting() {
-    const hi = alert('hi');
+    const [blahblah, setBlahblah] = useState<string>('')
     return (
         <>
             <h2>hello world</h2>
+            <input onChange={(e)=>setBlahblah(e.currentTarget.value)} />
         </>
     )
 }
