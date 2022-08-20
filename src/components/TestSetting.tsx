@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 export default function TestSetting() {
-    const [blahblah, setBlahblah] = useState<string>('')
+    const [blahblah, setBlahblah] = useState<any>('')
     return (
         <>
             <h2>hello world</h2>
