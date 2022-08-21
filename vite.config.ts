@@ -23,4 +23,4 @@ export default defineConfig({
     sourcemap: 'inline',
   },
 });
-//내일 비트 세팅 ㄱ
+// vite 설정 추가는 계속 해보기
